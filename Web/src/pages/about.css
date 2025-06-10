@@ -1,0 +1,76 @@
+.bemvindo-img img {
+  width: 26rem;
+}
+
+.bemvindo-img {
+  width: 50%;
+}
+
+.bemvindo-txt {
+  width: 35%;
+}
+
+.bemvindo-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.bemvindo-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+.vantagens-sec {
+  background-color: #2d7b8a;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-vantagens {
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.cards-sec {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte em telas menores */
+  justify-content: center; /* Centraliza os cards */
+}
+
+.card-about {
+  background-color: #f4f4f4;
+  border-radius: 2rem;
+  height: 18rem;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao redor dos cards */
+  transition: transform 0.3s ease-in-out; /* Efeito de hover */
+}
+
+.card-about:hover {
+  transform: translateY(-5px);
+}
+.icon-vantagens {
+  width: 40px;
+  height: 40px;
+}
+
+#tema-card {
+  font-weight: 600;
+}

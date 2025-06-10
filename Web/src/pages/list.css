@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+#h1-listaa {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: start;
+}
+
+#btn-list {
+  margin-top: 20px;
+  color: #f4f4f4;
+}
+
+#btn-excluir {
+  margin-top: 20px;
+  background-color: red;
+  color: #f4f4f4;
+}
+
+#title-modal {
+  font-weight: 500;
+  padding: 0;
+}
+
+#subtitle-modal {
+  font-weight: 300;
+}
+.list {
+  padding: 2rem;
+  width: 80%;
+}
+
+.all-list-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 80%;
+  text-align: start;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

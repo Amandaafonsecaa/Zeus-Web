@@ -1,0 +1,11 @@
+h2 {
+  padding: 0 0.6rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  padding: 1.9rem 1rem;
+}
