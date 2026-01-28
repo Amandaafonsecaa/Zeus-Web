@@ -90,12 +90,12 @@ const Add = () => {
   return (
     <div className="addpursaches">
       <div className="add-title">
-        <h2>Add Expense</h2>
+        <h2>Adicionar despesa</h2>
       </div>
       <div className="form">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
-            <label htmlFor="category">Category</label>
+            <label htmlFor="category">Categoria</label>
             <select
               id="category"
               name="category"
@@ -117,7 +117,7 @@ const Add = () => {
 
           <div className="inline-group">
             <div className="form-group">
-              <label htmlFor="amount">Amount</label>
+              <label htmlFor="amount">Preço</label>
               <input
                 type="text"
                 id="amount"
@@ -130,7 +130,7 @@ const Add = () => {
               {errors.amount && <span className="error">{errors.amount}</span>}
             </div>
             <div className="form-group">
-              <label htmlFor="store">Store</label>
+              <label htmlFor="store">Loja</label>
               <input
                 type="text"
                 id="store"
@@ -145,7 +145,7 @@ const Add = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="description">Description</label>
+            <label htmlFor="description">Descrição</label>
             <textarea
               id="description"
               name="description"
@@ -161,7 +161,7 @@ const Add = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="date">Date</label>
+            <label htmlFor="date">Data</label>
             <input
               type="date"
               id="date"

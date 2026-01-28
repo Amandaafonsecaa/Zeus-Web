@@ -105,19 +105,19 @@ const Painel = () => {
         </div>
         <div className="painel-conjunto-cards">
           <div className="painel-cards">
-            <p id="title-card">Today</p>
+            <p id="title-card">Hoje</p>
             <p id="price-card">R$ {calcularGastosDia(compras)}</p>
           </div>
           <div className="painel-cards">
-            <p id="title-card">This Week</p>
+            <p id="title-card">Esta semana</p>
             <p id="price-card">R$ {calcularGastosDaSemana(compras)}</p>
           </div>
           <div className="painel-cards">
-            <p id="title-card">This Month</p>
+            <p id="title-card">Este mês</p>
             <p id="price-card">R$ {calcularGastosDoMes(compras)}</p>
           </div>
           <div className="painel-cards">
-            <p id="title-card">Esse ano</p>
+            <p id="title-card">Este ano</p>
             <p id="price-card">R$ {calcularGastosAno(compras)}</p>
           </div>
         </div>
